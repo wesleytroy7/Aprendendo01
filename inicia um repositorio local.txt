@@ -1,0 +1,21 @@
+git init -> inicia um repositorio local
+git clone -> baixa um repositorio remoto clonando para seu repositorio
+git add .    ou  git add <<nome\-arquivo>>   ->   adiciona arquivos ao seu repositorio 
+git commit -m 'mensagem de commit' ->  salvar suas alterações e tonar rastreaveis no repositorio local, em formato de commit
+git push -> salvar os commit em um servidor remoto 
+git pull -> baixa as alterações do repositorio remoto para o repositorio local
+git merge -> unir duas branchs ou resolver um conflito
+git status -> prove informações refrentes ao projeto 
+git log  -> historico de alteraçõs do commit
+git branch ->  cria e visualisa ramos diferente com base na master 
+obs.: Quando é realizado git init é criando uma branch master, os arquivos de da produção
+
+https://git-scm.com/docs
+
+git config --global user.name
+
+
+git status -> apresenta o status
+git log -> mostra os logs
+git remoto add origin add -> adiciona uma origem uma origem remota
+git push -U  origin master -> envia todos os commits no repositório local p/ o repositório remoto
