@@ -17,5 +17,7 @@ git config --global user.name
 
 git status -> apresenta o status
 git log -> mostra os logs
-git remoto add origin add -> adiciona uma origem uma origem remota
+git remoto add origin add -> adiciona uma origem uma origem remota(conectar meu repositório a um repositório remoto)
 git push -U  origin master -> envia todos os commits no repositório local p/ o repositório remoto
+
+git remoto rm origin -> remove a conta de sicronismo
