@@ -21,3 +21,12 @@ git remoto add origin add -> adiciona uma origem uma origem remota(conectar meu 
 git push -u  origin master -> envia todos os commits no repositório local p/ o repositório remoto
 
 git remoto rm origin -> remove a conta de sicronismo
+-- branch são ramos de um repositório
+git branch -> Mostra a branch que estou conectado ou lista às branch
+git branch <nomedaBranch>  -> cria um ramo com os mesmo arquivos da branch master com um nome diferente
+git checkout <nomedaBranch>  -> troca o ramo de trabalho, onde será feitas às alterações
+git branch -D <nomedaBranch>  -> Deleta a branch desejada
+
+git checkout -b  <nomedaBranch> cria a branch é me direciona para mesma para que eu faça alteraçoes na mesma
+
+
