@@ -1,0 +1,2 @@
+def separa():
+    print("separando")

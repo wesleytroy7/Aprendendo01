@@ -1,0 +1,10 @@
+arquivo = input("Escreva o nome do arquivo a ser criado: ")
+seu_nome = input("Digite o seu nome: ")
+sua_idade = int(input("Digite sua idade: "))
+sua_cidade = input("Digite sua cidade: ")
+
+arq_saida=open(arquivo,"w")
+arq_saida.write("Olá, "+seu_nome+". \n")
+arq_saida.write(seu_nome+" possui "+ str(sua_idade)+" anos.\n")
+arq_saida.write("Você mora em "+sua_cidade)
+arq_saida.close()
